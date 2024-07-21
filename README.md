@@ -1,16 +1,18 @@
 # infinite_list
 
-A new Flutter project.
+A Project about infite list
 
-## Getting Started
+1. Each time the user **scrolls to the end of the list, fetch the next 20 products**.
+2. **Display the list of products** with relevant information (e.g., name, price, image).
+3. Implement an **input for searching product name** 
+4. Implement favorite feature for products by using sqflite
 
-This project is a starting point for a Flutter application.
+# environment
+This project build in:
+- Dart version: 3.4.1
+- Flutter verion: 3.22.1
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# libraries
+- provider: state management
+- sqflite: database
+- http: fetch api
